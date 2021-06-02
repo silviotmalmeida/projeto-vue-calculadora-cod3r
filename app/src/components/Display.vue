@@ -2,6 +2,7 @@
   <!-- trecho de código que representa o html do componente -->
   <!-- definindo o componente display -->
   <div class="display">
+    <!-- o texto do display será proveniente do valor do atributo value passado na criação do componente-->
     {{ value }}
   </div>
 </template>

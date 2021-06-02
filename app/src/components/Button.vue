@@ -1,7 +1,7 @@
 <template>
   <!-- trecho de código que representa o html do componente -->
   <!-- definindo o componente button -->
-  <!--  -->
+  <!-- o atributo @click é responsável por escutar o evento de click padrão e emitir um novo evento de nome onClick e valor referente à label -->
   <!-- o atributo :class aplica as classes referenciadas caso tenham sido passadas na criação do componente  -->
   <button
     class="button"

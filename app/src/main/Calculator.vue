@@ -134,19 +134,15 @@ export default {
       this.displayValue = displayValue;
       this.clearDisplay = false;
 
-      // Alternativa 1
-      this.values[this.current] = displayValue;
-
-      // Alternativa 2
       //se o botão digitado não for o '.':
-      // if (n !== ".") {
-      //obtendo o ponteiro atual do array de operandos
-      //     const i = this.current
-      //convertendo o número atual do display para float
-      //     const newValue = parseFloat(displayValue)
-      //populando a posição do ponteiro no array de operandos
-      //     this.values[i] = newValue
-      // }
+      if (n !== ".") {
+        //obtendo o ponteiro atual do array de operandos
+        const i = this.current;
+        //convertendo o número atual do display para float
+        const newValue = parseFloat(displayValue);
+        //populando a posição do ponteiro no array de operandos
+        this.values[i] = newValue;
+      }
     },
   },
 };
